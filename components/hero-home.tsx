@@ -12,7 +12,10 @@ export default function HeroHome() {
 
             {/* Content */}
             <div className="md:col-span-7 lg:col-span-7 mb-8 md:mb-0 text-center md:text-left">
-              <h1 className="h1 lg:text-4xl mb-4 font-red-hat-display font-black" data-aos="fade-down">UAE Corporate ax conference:</h1>
+              {/* <h1 className="h1 lg:text-4xl mb-4 font-red-hat-display font-black" data-aos="fade-down">UAE Corporate ax conference:</h1> */}
+              <div className='p-0'>
+                <img src="/images/sponsers/logo-01.png" className='h-64' />
+              </div>
               <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">Navigating the evolving landscape</p>
               {/* CTA form */}
 
@@ -45,8 +48,8 @@ export default function HeroHome() {
                 videoWidth={1920}
                 videoHeight={1080} /> */}
 
-              <div className='lg:block sm:none' style={{ position: "absolute", top: "0px", right: "0px", zIndex: "-5" }}>
-                <img src="images/landingPage.jpg" alt="" style={{ height: "720px", width: "1600px" }} />
+              <div className='lg:block hidden' style={{ position: "absolute", top: "10px", right: "0px", zIndex: "-5" }}>
+                <img src="images/landingPage.jpg" alt="" style={{ height: "820px", width: "1900px" }} className="hidden lg:block" />
               </div>
 
 
