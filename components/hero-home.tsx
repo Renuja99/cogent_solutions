@@ -50,7 +50,10 @@ export default function HeroHome() {
                 videoWidth={1920}
                 videoHeight={1080} /> */}
 
-              <img src="images/landingPage.jpg" alt="" style={{ height: "720px", width: "1600px", position: "absolute", top: "0px", right: "0px", zIndex: "-5" }} />
+              <div className='lg:block sm:none' style={{ position: "absolute", top: "0px", right: "0px", zIndex: "-5" }}>
+                <img src="images/landingPage.jpg" alt="" style={{ height: "720px", width: "1600px" }} />
+              </div>
+
 
             </div>
 
